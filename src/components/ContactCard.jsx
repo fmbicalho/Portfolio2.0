@@ -14,7 +14,7 @@ const socialMediaLinks = [
           <div className="space-y-6">
             <div className="relative">
               <img
-                src="../src/assets/images/profile.jpg"
+                src="/images/profile.jpg"
                 alt="Profile"
                 className="w-full h-96 object-cover rounded-lg z-0"
               />

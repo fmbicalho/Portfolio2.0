@@ -1,11 +1,11 @@
-import libraryImage from "/Users/fernandobicalho/Desktop/react-portfolio/src/assets/images/library.png"
-import chatImage from "/Users/fernandobicalho/Desktop/react-portfolio/src/assets/images/chat.jpg"
-import spaImage from "/Users/fernandobicalho/Desktop/react-portfolio/src/assets/images/spa.png"
-import weddingImage from "/Users/fernandobicalho/Desktop/react-portfolio/src/assets/images/wedding.png"
-import cinemaImage from "/Users/fernandobicalho/Desktop/react-portfolio/src/assets/images/cinema.png"
-import smallProjectsImage from "/Users/fernandobicalho/Desktop/react-portfolio/src/assets/images/smallprojects.jpg"
-import groceryImage from "/Users/fernandobicalho/Desktop/react-portfolio/src/assets/images/grocery.png"
-import pythonImage from "/Users/fernandobicalho/Desktop/react-portfolio/src/assets/images/python.png"
+import libraryImage from "/images/library.png"
+import chatImage from "/images/chat.jpg"
+import spaImage from "/images/spa.png"
+import weddingImage from "/images/wedding.png"
+import cinemaImage from "/images/cinema.png"
+import smallProjectsImage from "/images/smallprojects.jpg"
+import groceryImage from "/images/grocery.png"
+import pythonImage from "/images/python.png"
 
 export const projectData = [
     {

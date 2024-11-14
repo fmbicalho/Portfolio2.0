@@ -5,7 +5,7 @@ const About = () => {
     <div className="bg-gray-200 p-6 rounded-lg shadow-md flex justify-center items-center">
       <div className="flex flex-col md:flex-row items-center gap-8">
         <img
-          src="../src/assets/images/profile.jpg"
+          src="/images/profile.jpg"
           alt="Fernando Bicalho"
           className="w-56 h-56 object-cover rounded-full"
         />
