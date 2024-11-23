@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const DropdownMenu = ({ isOpen, setIsOpen }) => {
   return (
     <div
-      className={`fixed top-0 left-0 items-center w-full h-full bg-gray-800 bg-opacity-90 flex flex-col items-center justify-center transition-transform duration-300 ease-in-out ${
+      className={`fixed top-0 left-0 items-center w-full h-full bg-gray-400 bg-opacity-90 flex flex-col items-center justify-center transition-transform duration-300 ease-in-out ${
         isOpen ? "translate-y-0" : "-translate-y-full"
       } z-50`}
     >

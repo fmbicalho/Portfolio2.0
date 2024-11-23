@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="bg-gray-200 p-6 rounded-lg shadow-md flex justify-center items-center">
+    <div className="bg-gray-100 p-6 rounded-lg shadow-md flex justify-center items-center">
       <div className="flex flex-col md:flex-row items-center gap-8">
         <img
           src="/images/profile.jpg"

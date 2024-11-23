@@ -7,7 +7,7 @@ import ComputerIcon from '@mui/icons-material/Computer';
 import AirplaneTicket from '@mui/icons-material/AirplaneTicket';
 
 const MyJourneyMobile = () => (
-  <section className="bg-gray-200 p-4 rounded-lg shadow-md">
+  <section className="bg-gray-100 p-4 rounded-lg shadow-md">
     <h2 className="text-xl font-semibold text-black mb-4">My Journey</h2>
     
     <div className="flex flex-col">

@@ -14,7 +14,7 @@ import Typography from '@mui/material/Typography';
 import { AirplaneTicket } from '@mui/icons-material';
 
 const MyJourney = () => (
-  <section className="bg-gray-200 p-6 rounded-lg shadow-md">
+  <section className="bg-gray-100 p-6 rounded-lg shadow-md">
     <h2 className="text-2xl font-semibold text-black mb-4">My Journey</h2>
     <Timeline position="alternate">
       <TimelineItem>
