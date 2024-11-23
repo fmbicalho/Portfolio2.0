@@ -5,7 +5,11 @@ const Skills = () => {
   const [filter, setFilter] = useState("all");
 
   const filteredSkills = initialSkills
-    .filter((skill) => filter === "all" || skill.segment === filter)
+    .filter((skill) =>
+      filter === "all" ||
+      skill.segment === filter ||
+      skill.segment === "fullstack"
+    )
     .sort((a, b) => a.name.localeCompare(b.name));
 
   return (
