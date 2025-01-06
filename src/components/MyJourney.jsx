@@ -17,6 +17,33 @@ const MyJourney = () => (
   <section className="bg-gray-100 p-6 rounded-lg shadow-md">
     <h2 className="text-2xl font-semibold text-black mb-4">My Journey</h2>
     <Timeline position="alternate">
+
+    <TimelineItem>
+        <TimelineOppositeContent
+          sx={{ m: 'auto 0' }}
+          align="left"
+          variant="body2"
+          color="text.secondary"
+        >
+          2024-2025
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineConnector />
+          <TimelineDot color="warning">
+            <ComputerIcon />
+          </TimelineDot>
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent sx={{ py: '12px', px: 2 }}>
+          <Typography variant="h6" component="span">
+            Working is several projects ad freelance jobs.
+          </Typography>
+          <Typography>
+          Rigth now I'm currently working on several projects and freelance jobs. I'm always looking for new opportunities to grow and learn.
+          </Typography>
+        </TimelineContent>
+      </TimelineItem>
+
       <TimelineItem>
         <TimelineOppositeContent
           sx={{ m: 'auto 0' }}

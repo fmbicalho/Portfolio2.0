@@ -10,6 +10,20 @@ const MyJourneyMobile = () => (
   <section className="bg-gray-100 p-4 rounded-lg shadow-md">
     <h2 className="text-xl font-semibold text-black mb-4">My Journey</h2>
     
+    <div className="mb-4 flex items-start">
+        <div className="flex items-center justify-center w-12 h-12 bg-yellow-500 rounded-full mr-3">
+          <ComputerIcon className="text-white" />
+        </div>
+        <div>
+          <Typography variant="h6" component="span">
+          2024-2025: Working is several projects ad freelance jobs.
+          </Typography>
+          <Typography>
+          Rigth now I'm currently working on several projects and freelance jobs. I'm always looking for new opportunities to grow and learn.
+          </Typography>
+        </div>
+      </div>
+
     <div className="flex flex-col">
       <div className="mb-4 flex items-start">
         <div className="flex items-center justify-center w-12 h-12 bg-red-500 rounded-full mr-3">

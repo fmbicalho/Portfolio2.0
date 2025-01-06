@@ -106,7 +106,7 @@ export const projectData = [
     title: "Barber Shop",
     description:
       "A Freelance Job for a Barber Shop. Created with React and Typescript.",
-    languages: ["TypeScript", "React", "HTML", "Tailwind", "MondoDB"],
+    languages: ["TypeScript", "React", "HTML", "Tailwind", "MongoDB"],
     image: barberImage,
     onlineLink: "https://barbershop2024.netlify.app",
     repoLink: "https://github.com/topereira07/barbershop",
@@ -125,14 +125,14 @@ export const projectData = [
     id: 12,
     title: "E-Commerce",
     description:
-      "A simple e-commerce project crated with Java Springboot, React and MongoDB.",
+      "A simple e-commerce project created with Java SpringBoot, React and MongoDB.",
     languages: [
       "JavaScript",
       "React",
       "HTML",
       "Tailwind",
       "Java",
-      "Springboot",
+      "SpringBoot",
       "MongoDB",
     ],
     image: ecommerceImage,
@@ -143,7 +143,7 @@ export const projectData = [
     id: 13,
     title: "CarBuddy",
     description:
-      "Still in development, but it's a full online application to help people find their new car.",
+      "Still in development, but it's a full online application to help people find their new car. With this app you can check the new cars from different brands, check the prices, and even check the reviews from other users. Also can compare the cars with each other.",
     languages: ["JavaScript", "React", "HTML", "Tailwind"],
     image: carBuddyImage,
     onlineLink: "",
