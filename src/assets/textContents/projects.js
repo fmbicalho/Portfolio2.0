@@ -7,6 +7,11 @@ import smallProjectsImage from "/images/smallprojects.jpg"
 import groceryImage from "/images/grocery.png"
 import pythonImage from "/images/python.png"
 
+import barberImage from "/images/barber-shop.png"
+import bingoImage from "/images/bingo.png"
+import carBuddyImage from "/images/carbuddy.png"
+import ecommerceImage from "/images/e-commerce.png"
+
 export const projectData = [
     {
       id: 1,
@@ -93,6 +98,42 @@ export const projectData = [
       },
       {
         id: 10,
+        title: "Barber Shop",
+        description: "A Freelance Job for a Barber Shop. Created with React and Typescript.",
+        languages: ["TypeScript", "React", "HTML", "Tailwind", "MondoDB"],
+        image: barberImage,
+        onlineLink: "https://barbershop2024.netlify.app",
+        repoLink: "https://github.com/topereira07/barbershop",
+      },
+      {
+        id: 11,
+        title: "Bingo Game",
+        description: "A Bingo Game created with Python, FastAPI, and React.",
+        languages: ["JavaScript", "React", "Python", "HTML", "FastAPI", "Tailwind"],
+        image: bingoImage,
+        onlineLink: "",
+        repoLink: "https://github.com/fmbicalho/miniBingo/tree/main/anotherBingoGame",
+      },
+      {
+        id: 12,
+        title: "E-Commerce",
+        description: "A simple e-commerce project crated with Java Springboot, React and MongoDB.",
+        languages: ["JavaScript", "React", "HTML", "Tailwind", "Java", "Springboot", "MongoDB"],
+        image: ecommerceImage,
+        onlineLink: "",
+        repoLink: "https://github.com/fmbicalho/Simple-E-Commerce",
+      },
+      {
+        id: 13,
+        title: "CarBuddy",
+        description: "Still in development, but it's a full online application to help people find their new car.",
+        languages: ["JavaScript", "React", "HTML", "Tailwind"],
+        image: carBuddyImage,
+        onlineLink: "",
+        repoLink: "https://github.com/fmbicalho/CarBuddy",
+      },
+      {
+        id: 14,
         title: "Small Projects",
         description: "Small projects created during Code for All_ ReactLab.",
         languages: ["JavaScript", "React", "HTML", "CSS"],
